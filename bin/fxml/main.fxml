@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.controller.MainController">
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Label text="Savaş Araçları Kart Oyunu" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+            <Button text="Oyuna Başla" onAction="#baslatOyunu" prefWidth="150" />
+            <Button text="Çıkış" onAction="#oyundanCik" prefWidth="150" />
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.controller.SonucController">
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Label fx:id="sonucLabel" text="Oyun Sonucu" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+            <Label fx:id="oyuncuSkorLabel" text="Oyuncu Skoru: 0" style="-fx-font-size: 16px;" />
+            <Label fx:id="bilgisayarSkorLabel" text="Bilgisayar Skoru: 0" style="-fx-font-size: 16px;" />
+            <Button text="Yeniden Başla" onAction="#yenidenBasla" prefWidth="150" />
+            <Button text="Çıkış" onAction="#oyundanCik" prefWidth="150" />
+        </VBox>
+    </center>
+</BorderPane>

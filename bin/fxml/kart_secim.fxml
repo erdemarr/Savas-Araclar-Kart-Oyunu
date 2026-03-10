@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.controller.KartSecimController">
+    <center>
+        <VBox alignment="CENTER" spacing="10">
+            <Label text="Lütfen 3 kart seçin:" style="-fx-font-size: 16px;" />
+            <ListView fx:id="kartListesi" prefHeight="200" prefWidth="300" />
+            <Button text="Seçimi Tamamla" onAction="#secimTamamla" />
+        </VBox>
+    </center>
+</BorderPane>
